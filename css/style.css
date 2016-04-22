@@ -11,6 +11,20 @@ body{
     font-family: 'OpenSans-Regular';
     src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
 }
+.bg-blue{
+	background-color:#448ACA;
+	border-top:solid 1px #C7C7C7;
+	border-bottom:solid 1px #C7C7C7;
+}
+.bg-gray{
+	background-color:#F6F6F6;
+}
+.bg-margin-bottom{
+	padding-bottom:104px;
+}
+.bg-line-top{
+	border-top:solid 1px #959595;
+}
 .header-top{
 	background:#000000;
 	padding: 1em 0em;
@@ -164,10 +178,21 @@ button.btn.btn-info.sld:hover {
 }
 .style-label{
 	text-align:center;
-}
-.style-label{
 	padding: 3em 0em;
 }
+/*--main--*/
+.main{
+	background:#F6F6F6;
+	
+}
+.main>.dynamic{
+	padding-top:100px;
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:32px;
+	color:#3B3B3B;
+	
+}
+
 /*--box_effect--*/
 ul.box-shadow li {
 	text-align:center;
@@ -394,23 +419,45 @@ ul {
  }
 .gallery-grids {
 	margin-top: 3em;
+
+	margin-bottom:140px;
 }
 .gallery-grids ul{
 	list-style-type:none;
 	margin:0;
-	padding:0;
+	padding-left:50px;
+	padding-right:50px;
 }
 .gallery-grids ul li{
-	margin:0px 20px 20px 0px;
+	margin:0px 10px 50px 10px;
 	padding:0;
+	background-color:#FFF;
+	text-align:center;
 }
 .gal-alt img {
-	width: 100%;
+	width: 270px;
+	height:270px;
 	border-radius: 2px;
 }
 .gal-alt {
 	position: relative;
 	width: 31.333333%;
+}
+.gal-alt p{
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:16px;
+	color:#3B3B3B;
+	height:18px;
+	line-height:18px;
+	margin:10px 0 0 10px;
+	text-align:left;
+	}
+.gal-alt .dynamic-time{
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:14px;
+	color:#3B3B3B;
+	margin:0 10px 10px 0;
+	text-align:right;
 }
 span.hide-box {
 	background: rgba(121, 207, 209, 0.63);
@@ -645,7 +692,7 @@ input.nuber {
 /*--contact--*/
 /*--footer--*/
 .footer{
-	background:#FFF;
+	background:#F6F6F6;
 	padding:2em 0em;
 }
 .footer-text{
@@ -656,11 +703,9 @@ input.nuber {
 .footer-text, .footer-text img{
 	height:80px;
 }
-.footer-text{
-	border-top:solid 1px #959595;
-}
 .footer-text img{
-	margin-top: 15px;}
+	margin-top: 5px;
+	margin-bottom:15px;}
 #toTop {
 	display: none;
 	text-decoration: none;
