@@ -99,15 +99,19 @@
   <div class="main">
   
   </div>
+  
+<div class="bg-gray bg-line-top">
+  <div id="container" class="container">
   <div class="footer">
       <div class="footer-text">
           <!--<h3 style="font-family:'微软雅黑', sans-serif, serif"><a href="index.html">杭州电子科技大学</a></h3>-->
           <!--<p>Copyright &copy; 2016.CAMALAB</p>-->
-          <a href="http://www.hdu.edu.cn"><img src="images/logo.png"  /></a>
+          <a href="http://www.hdu.edu.cn"><img src="./images/logo.png"  /></a>
       </div>
   </div>
+  
   <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  </div>
 </div>
-
 </body>
 </html>
