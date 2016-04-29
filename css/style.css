@@ -25,6 +25,9 @@ body{
 .bg-line-top{
 	border-top:solid 1px #959595;
 }
+.bg-line-top-c7{
+	border-top:solid 1px #C7C7C7;
+}
 .header-top{
 	background:#000000;
 	padding: 1em 0em;
@@ -35,10 +38,7 @@ body{
 	font-weight:400;
 	color:#fff;
 }
-.header_nav{
-	height:201px;
-	line-height:201px;
-}
+
 .navbar-header a.navbar-brand.logo-st,.navbar-header a.navbar-brand.logo-st:hover{
 	font-family:Arial, sans-serif;
 	font-size: 48px;
@@ -71,7 +71,6 @@ body{
 nav.navbar.navbar-default.chn-gd{
 	background-color: #FFF;
 	border: 1px solid #FFF;
-	padding: 1em 0em;
 	margin: 0;
 }
 .icn_pos {

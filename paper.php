@@ -30,72 +30,10 @@
 </head>
 
 <body>
-<div id="container" class="container">
-  <div class="header_nav">
-      <nav class="navbar navbar-default chn-gd">
-          <div style="height:126px;">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <div class="logo-head-img">
-                  <img id="logo-head" src="images/logo_web.png"/>
-              </div>
-              <div class="logo-head-txt">
-                  <!--<a class="navbar-brand logo-st" href="index.php">CAMALAB</a>-->
-                  CAMALAB
-              </div>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <!-- /.navbar-collapse -->
-          </div>
-          <div class="navigation">
-          <ul class="nav navbar-nav navbar-right">
-              <li>
-              <a href="./index.php" class="scroll">
-              首页
-              </a>
-              </li>
-              <!---->
-              <li>
-              <a href="./research.php" class="scroll">
-
-              研究内容
-              </a>
-              </li>
-              <!---->
-              <li class="tab-focus">
-              <a href="./paper.php" class="scroll">
-              论文
-              </a>
-              </li>
-              <!---->
-              <li>
-              <a href="./member.php" class="scroll">
-              
-              成员
-              </a>
-              </li>
-              <!---->
-              <li>	
-              <a href="./member.php" class="scroll">
-              
-              关于我们
-              </a>
-              </li>
-              <!---->
-              <li>	
-              <a href="./link.php" class="scroll">
-              
-              相关链接
-              </a>
-              </li>
-              
-          </ul>
-          </div>
-          </nav>
-      </div>
-      
-      	 
-  </div>
+<?php include 'menu.php'?>
+  <script language="javascript" type="text/javascript">
+	$("#pap").addClass("tab-focus");
+</script>
   <div class="main">
   
   </div>
