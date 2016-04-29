@@ -1,0 +1,46 @@
+/* CSS Document */
+.lib{
+	margin-top:100px;}
+.libspan{
+	background-color:#448ACA;
+	border:solid 1px #448ACA;
+	font-family:"微软雅黑", sans-serif, serif;
+	color:#FFF;
+	font-size:28px;
+	padding:10px;
+	-webkit-border-radius:5px;
+}
+.lib ul{
+	height:150px;
+	padding-left:35px;
+	margin-top:30px;
+	color:#3B3B3B;
+	}
+.lib .gal-alt-l{
+	position:relative;
+	width:42%;
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:24px;
+	line-height:40px;
+}
+.meeting{
+	margin-top:60px;
+}
+.meeting span{
+	width:160px;
+	}
+.journal{
+	margin-top:60px;
+	padding-bottom:90px;
+}
+.meeting ul, .journal ul{
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-left:35px;
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:24px;
+	line-height:40px;
+}
+.lib ul a, .meeting ul a, .journal ul a{
+	color:#3B3B3B;	
+}
