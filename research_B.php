@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>论文</title>
+<title>研究内容</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
@@ -14,12 +14,11 @@
         </script>
 		<!meta charset utf="8">
 		<!--owlcss-->
-		<link href="css/owl.carousel.css" rel="stylesheet" />
+		<link href="css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<link href="css/paper.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
@@ -27,24 +26,18 @@
 		<!--script-->
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
-        <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
-        <script type="text/javascript" src="js/jquery.hashchange.min.js"></script>
 		<!--script-->
 </head>
 
 <body>
 <?php include 'menu.php'?>
   <script language="javascript" type="text/javascript">
-	$("#pap").addClass("tab-focus");
+	$("#res").addClass("tab-focus");
 </script>
- <div class="bg-gray bg-line-top-c7">
- <div class="container container-margin-top">
-  <div class="tab-main" id="tab-container">
- 	<?php include 'paper_details.php'?>
+  <div class="main">
+  
   </div>
- </div>
- </div>
- <div class="bg-gray bg-line-top">
+<div class="bg-gray bg-line-top">
   <div id="container" class="container">
   <div class="footer">
       <div class="footer-text">
@@ -57,8 +50,6 @@
   <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
   </div>
 </div>
-<script type="text/javascript">
-	$('#tab-container').easytabs();
-</script>
+
 </body>
 </html>
