@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.container-margin-top{
+	margin-top:100px;
+}
+.tab-title{
+	background:#448ACA;
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:20px;
+	color:#FFF;
+	padding:10px;
+	-webkit-border-radius:5px;
+	margin-right:100px;
+	float:left;
+}
+.etabs{
+	margin:0 0 50px 0;
+	padding:0;
+}
+.tab{
+	display:inline-block;
+	background:#C9C9C9;
+	zoom:1;
+	-webkit-border-radius:5px;
+	padding:5px;
+	margin-left:10px;
+}
+.tab a{
+	color:#FFF;
+}
+.tab a:hover{
+	text-decoration:none;
+}
+.tab a .tab-span{
+	font-family:"微软雅黑", sans-serif, serif;
+	font-size:16px;
+	line-height:30px;
+	
+}
+.tab.active{
+	background:#448ACA;
+	position:relative;
+}
+.tabs-inner .tabs-inner-ul{
+	margin-bottom:350px;
+}
+.tabs-inner .tabs-inner-ul>li{
+	list-style:inside;
+	line-height:32px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#3B3B3B;
+	padding-left:10px;
+}
